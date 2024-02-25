@@ -1,0 +1,39 @@
+/* 1140; 992; 768; 576; 425; */
+
+.sr-only {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+}
+
+html {
+   scroll-behavior: smooth;
+   scroll-padding-top: 30%;
+}
+
+body {
+   font-family: 'Roboto700';
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   line-height: 1.17;
+}
+
+.lock {
+   overflow: hidden
+}
+
+.main {
+   flex: 1 0 auto;
+}
+
+.hover:hover {
+   scale: 1.1;
+}
