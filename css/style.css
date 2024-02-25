@@ -5,7 +5,7 @@
    top: 0;
    left: 0;
    right: 0;
-   /* padding-top: 10px; */
+   padding-top: 10px;
    padding-bottom: 10px;
    z-index: 99;
 }
@@ -25,7 +25,7 @@
 
 @media (min-width: 1140px) {
    .header__container {
-      padding: 0 15px 0 80px;
+      padding: 0 8px 0 80px;
    }
 }
 
@@ -112,7 +112,7 @@
       background-image: url("../images/big_cloud.webp");
       justify-content: space-between;
       padding: 0 54px 0 77px;
-      width: 438px;
+      width: 445px;
       height: 102px;
    }
 }
@@ -272,7 +272,7 @@
 
 
 .hero__left {
-   
+
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -841,8 +841,8 @@
    padding: 0 15px;
    background: rgb(251, 248, 248);
    background: url('../images/grass.webp'),
-   url('../images/box.webp'),
-   linear-gradient(0deg, rgba(251, 248, 248, 1) 53%, rgba(135, 203, 231, 1) 100%);
+      url('../images/box.webp'),
+      linear-gradient(0deg, rgba(251, 248, 248, 1) 53%, rgba(135, 203, 231, 1) 100%);
    background-repeat: no-repeat;
    background-position: left bottom;
    transition: all 0.5s ease-in-out;
